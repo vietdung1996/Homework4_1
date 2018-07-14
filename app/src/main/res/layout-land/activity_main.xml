@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:stretchColumns="*"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/margin20"
+    >
+
+    <TableRow>
+
+        <Button android:text="@string/Have_Fun" />
+
+        <Button android:text="@string/Click_Here" />
+    </TableRow>
+    <TableRow>
+        <Button android:text="@string/Do_Something" />
+
+        <Button android:text="@string/Surprise" />
+    </TableRow>
+
+
+
+</TableLayout>
